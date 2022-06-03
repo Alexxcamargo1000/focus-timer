@@ -8,24 +8,9 @@ const buttonShop = document.querySelector(".shop");
 const buttonFire = document.querySelector(".fire");
 const minutes = document.querySelector(".minutes");
 const seconds = document.querySelector(".seconds");
-const musics = [
-  {
-    name: "florist",
-    path: new Audio("./audios/Floresta.wav"),
-  },
-  {
-    name: "rain",
-    path: new Audio("./audios/Chuva.wav"),
-  },
-  {
-    name: "shop",
-    path: new Audio("./audios/Cafeteria.wav"),
-  },
-  {
-    name: "fire",
-    path: new Audio("./audios/Lareira.wav"),
-  },
-];
+
+
+const buttonMusicArray = [buttonFlorist,buttonRain,buttonShop,buttonFire]
 
 export {
   buttonPlay,
@@ -38,5 +23,5 @@ export {
   buttonFire,
   minutes,
   seconds,
-  musics,
+  buttonMusicArray,
 };
